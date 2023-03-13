@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.card-container {
+  width: 70%;
+  height: 41%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card-container picture {
+  width: 50%;
+}
+.card-container picture img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-details h1 {
+  text-align: justify;
+  margin: -30px 120px 0 40px;
+}
+
+.card-details {
+  padding: 32px;
+  width: 50%;
+}
+
+.card-details p {
+  text-align: left;
+  line-height: 23px;
+  word-spacing: 2px;
+  margin: 30px 60px 0 40px;
+  font-size: var(--font-size);
+}
+
+.card-stadistics {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 30px 0 0 40px;
+}
+.stadistic2{
+    margin:0 0 0 40px;
+}
+.stadistic3{
+    margin:0 0 0 40px;
+}

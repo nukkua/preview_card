@@ -1,0 +1,100 @@
+:root {
+  --font-family-ms: "Montserrat", sans-serif;
+  --font-family-fr: "Fraunces", serif;
+  --font-family-int: "Inter", sans-serif;
+  --font-family-ld: "Lexend Deca", sans-serif;
+
+  /* Primary Colors */
+  --very-dark-blue-main-background: hsl(233, 47%, 7%);
+  --dark-desaturated-blue-card-background: hsl(244, 38%, 16%);
+  --soft-violet-accent: hsl(277, 64%, 61%);
+
+  /* Neutral Colors */
+
+  --white-main-heading-stats: hsl(0, 0%, 100%);
+  --slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+
+  /* Font size */
+  --font-size: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--very-dark-blue-main-background);
+}
+.card-container {
+  width: 85%;
+  height: 80%;
+  margin: 100px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--dark-desaturated-blue-card-background);
+}
+
+.card-container picture img {
+  width: 100%;
+  filter: opacity(0.4) drop-shadow(0 0 0 var(--soft-violet-accent));
+   
+}
+
+.card-details {
+  width: 91%;
+  margin: 25px auto;
+}
+.card-details h1 {
+  padding-top: 9%;
+  font-family: var(--font-family-int);
+  text-align: center;
+  color: var(--white-main-heading-stats);
+  font-size: 28px;
+}
+.card-details h1 span {
+  color: var(--soft-violet-accent);
+}
+.card-details p {
+  font-family: var(--font-family-int);
+  color: var(--slightly-transparent-white-main-paragraph);
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.card-stadistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-stadistics span h2 {
+  font-family: var(--font-family-int);
+  font-size: 26px;
+  color: var(--white-main-heading-stats);
+  margin-bottom: 6px;
+}
+.card-stadistics span:nth-child(2) {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-family-ld);
+  color: var(--slightly-transparent-white-stat-headings);
+  font-size: 12px;
+}
+.card-stadistics span:nth-child(4) {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-family-ld);
+  color: var(--slightly-transparent-white-stat-headings);
+  font-size: 12px;
+}
+.card-stadistics span:nth-child(5) {
+  text-transform: uppercase;
+}
+
+.card-stadistics span:nth-child(6) {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-family-ld);
+  color: var(--slightly-transparent-white-stat-headings);
+  font-size: 12px;
+  margin-bottom: 4%;
+}
