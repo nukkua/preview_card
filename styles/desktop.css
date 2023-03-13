@@ -5,7 +5,7 @@ body {
 }
 .card-container {
   width: 70%;
-  height: 41%;
+  height: 50%;
   border-radius: 20px;
   display: flex;
   flex-direction: row-reverse;
